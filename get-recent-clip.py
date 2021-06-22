@@ -1,11 +1,13 @@
 import sys
 import psycopg2
 import os
+import creds
 
-host='xxx'
-dbname='xxx'
-user='xxx'
-password='xxx'
+
+host=creds.host
+dbname=creds.dbname
+user=creds.user
+password=creds.password
 
 conn = psycopg2.connect(host=host, dbname=dbname, user=user, password=password)
 

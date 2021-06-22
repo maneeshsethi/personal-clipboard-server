@@ -1,0 +1,5 @@
+# Copy this to creds.py and insert the postgres details below.
+host=''
+dbname=''
+user=''
+password=''
